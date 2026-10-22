@@ -95,20 +95,6 @@ value to a specific model and evaluation protocol, so these figures are
 recorded here as results reported in the original notebook, not as
 independently verified benchmark results.
 
-## Limitations and Next Improvements
-
--   Move preprocessing into a pipeline fitted only on training data to
-    avoid data leakage.
--   Keep a final held-out test set separate from cross-validation and
-    hyperparameter tuning.
--   Apply the same feature transformations to training and
-    inference/test data.
--   Replace hard-coded missing-value assumptions with a documented
-    imputation strategy.
--   Clarify the final model-selection process and report per-class
-    precision, recall, F1-score, and confusion matrix.
--   Add dataset provenance, dependency versions, and a clean run from
-    top to bottom.
 
 ## Project Context
 
@@ -116,11 +102,3 @@ This is an academic machine learning project focused on learning and
 comparing classification techniques. The notebook should be updated and
 rerun before presenting its performance as a final, production-ready
 model.
-
-## Author
-
-**Shahd Mohamed Amer**\
-Artificial Intelligence Graduate --- Alexandria University
-
--   GitHub: https://github.com/shahdamer067
--   LinkedIn: https://www.linkedin.com/in/shahd-amer-721526256/
